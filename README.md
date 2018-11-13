@@ -3,10 +3,15 @@ Project JS created with Webpack
 
 # start webpack
 
-* npm init -y \n
-* npm install webpack webpack-cli --save-dev \n
-* npm install --save lodash \n
+* npm init -y
+* npm install webpack webpack-cli --save-dev
+* npm install --save lodash
+* npm install webpack-dev-server --save-dev
 
-# run project
+# generate dist
 
-npm run
+npm run build
+
+# run project on browser
+
+npm start 
